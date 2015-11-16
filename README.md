@@ -1,14 +1,20 @@
 # Net-Meter-Solar-App
 # Net Metering Interconnection for Plug and Play Solar System
+
 Author: Yuenyong Nilsiam
+
 Date: September 16, 2015
 
 Setting Up the Application Web Page
 
 Prerequisite
+ 
  a) Computer as a Server Machine
+ 
  b) Apache HTTP Server [https://httpd.apache.org/]
+ 
  c) PHP Interpreter [http://php.net/]
+ 
  d) MySQL Database [https://www.mysql.com/]
 
 On the server machine, all of the prerequisite softwares can be installed easily using XAMPP [https://www.apachefriends.org]. It is a free open source cross-platform web server software package. You can install each of them separately if you prefer.
