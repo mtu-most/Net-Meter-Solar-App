@@ -19,16 +19,16 @@ Prerequisite
 
 On the server machine, all of the prerequisite softwares can be installed easily using XAMPP [https://www.apachefriends.org]. It is a free open source cross-platform web server software package. You can install each of them separately if you prefer.
 
-1. Create Database and Table
+1.Create Database and Table
 
 In MySQL database, run 'nmifpapss.sql' to create database and table structure for the application page. You can use phpmyadmin or terminal to connect to MySQL server to run the script.
 
-2. Application Page
+2.Application Page
 
 Put application page ('application.php') in the public folder of apache web server, usually at '/var/www/html' on Linux machine. The default user name and password for MySQL server are 'root' and 'password!' respectively. If you set up the different user name and password, then you can change the them in the 'application.php' by finding the line: 
 $db_conn = new mysqli("localhost", "root", "password!", "nmifpapss");
 and change to your new user name and password.
 
-3. Access the Application Page
+3.Access the Application Page
 
 On the server machine, you can access the application page from url: 'localhost/application.php'. On other machine, you need to know the IP address or the domain name of the server so you can access the page through them, for example, '192.168.2.7/application.php' or 'mydomain.com/application.php'.
