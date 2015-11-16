@@ -4,6 +4,7 @@
 # Date: September 16, 2015
 
 Setting Up the Application Web Page
+
 1. Prerequisite
  a) Computer as a Server Machine
  b) Apache HTTP Server [https://httpd.apache.org/]
